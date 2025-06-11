@@ -1,0 +1,79 @@
+{
+  "name": "Klick Stock - Premium Creative Resources",
+  "short_name": "Klick Stock",
+  "description": "Discover high-quality images, graphics, and digital assets for your creative projects",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["productivity", "photo", "graphics"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Klick Stock Gallery View"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Klick Stock Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse Gallery",
+      "short_name": "Gallery",
+      "url": "/gallery",
+      "icons": [
+        {
+          "src": "/shortcut-gallery.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Upload Content",
+      "short_name": "Upload",
+      "url": "/contributor",
+      "icons": [
+        {
+          "src": "/shortcut-upload.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+} 
