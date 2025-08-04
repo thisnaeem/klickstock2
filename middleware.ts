@@ -12,7 +12,8 @@ export const PUBLIC_ROUTES = [
   "/gallery",
   "/images",
   "/pngs",
-  "/creator"
+  "/creator",
+  "/sitemap.xml", // Added sitemap.xml to public routes
 ];
 
 export default auth((req) => {
@@ -76,4 +77,4 @@ export const config = {
     // Always run for API routes
     '/(api|trpc)(.*)',
   ],
-}
+};
